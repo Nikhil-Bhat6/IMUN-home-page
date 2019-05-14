@@ -1,0 +1,548 @@
+
+
+body{
+	font-family: 'Nunito', sans-serif;
+	background: white;
+	
+}
+
+
+
+#heading{
+	position:absolute;
+	text-align: center;
+	z-index:1;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	padding-top: 35px;
+}
+
+
+.navbar-brand{
+	color:white !important;
+}
+.navbar-brand p{
+	margin-top: -48px;
+	margin-left: 65px;
+	font-size: 15px;
+
+}
+
+.navbar{
+	background: transparent;
+	border:0px solid white;
+	border-radius:0px;
+
+}
+.navbar ul li a{
+	color:white !important;
+	font-weight: bolder;
+	letter-spacing: 0.5px;
+}
+.navbar ul li:hover{
+	border-bottom: 2px solid rgb(17,131,188);
+}
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: white !important;
+	border:1px solid white;
+	border-radius: 0px;
+	height: 3px;
+	width: 32px;
+}
+
+.navbar-right{
+	padding-top: 10px;
+}
+
+.navbar .navbar-brand img {
+	height: 70px;
+	margin-top: -17px;
+}
+.navbar-default .navbar-toggle{
+	margin-top: 22px;
+	border-color:transparent !important;
+	font-size: 32px;
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus{
+	background: transparent !important;
+	border-color:transparent !important;
+
+}
+div#navbar {
+	margin-top: 8px;
+}
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+	color: #555;
+	background-color: transparent;
+}
+.navbar-nav>li>.dropdown-menu>li>a {
+	color: black !important;
+}
+
+
+/*************Banner Section***************/
+
+#imun-banner{
+	background:url(banner.jpg) center center no-repeat ,linear-gradient(to right,#1b1d36,#706473);
+	position: relative;
+	color:black;
+	text-align: center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+
+}
+#imun-banner .overlay{
+	
+	background: rgba(61,65,60,0.7)  repeat;
+	background-size: cover;
+	width:100%;
+	height:100%;
+	padding-top:200px;
+	padding-bottom: 200px;
+
+}
+
+#imun-banner .banner-text h1{
+	color:white;
+	text-align: left;
+	line-height: 48px;
+	padding-left:120px;
+	font-size: 36px;
+}
+#imun-banner .banner-text p
+{
+	color: white;
+	text-align: left;
+	line-height: 28px;
+	padding-left:120px;
+	font-size: 17px;
+}
+#imun-banner .banner-text{
+	padding-bottom: 100px;
+	padding-top: 20px;
+}
+#imun-banner .banner-text h3{
+	color:white;
+	font-size: 42px;
+}
+
+#imun-banner .btn{
+	padding: 07px 20px 07px 20px;
+	border-radius: 22px;
+	font-size: 10px;
+	letter-spacing: 0.8px;
+	font-weight: bold;
+	box-shadow: 0 6px 16px 0 rgba(115,143,147,.4);
+
+}
+#register{
+	
+	background: #e2b13c;
+	border:2px solid #e2b13c;
+	transition: 0.4s;
+	margin-left: 120px;
+	font-size: 12px;
+
+}
+#knowmore{
+	border:2px solid white;
+	background: transparent; 
+	transition: 0.4s;
+}
+.pull-left #register:hover{
+	background:transparent;
+	transition: 0.6s;
+	border:2px solid white;
+
+}
+.pull-left #knowmore:hover{
+	background: #e2b13c;
+	transition: 0.6s;
+	border:2px solid #e2b13c;
+}
+
+#imun-banner .btn:hover{
+	
+	
+	padding: 07px 20px 07px 20px;
+	border-radius: 22px;
+	letter-spacing: 0.8px;
+	font-weight: bold;
+	box-shadow: 0 6px 16px 0 rgba(115,143,147,.4);
+}
+.imun-social i {
+	color: white;
+	font-size: 13x;
+	color:darkblue;
+	border:1px solid white; 
+	padding:5px 7px 3px 7px;
+	background: #e2b13c;
+	border-radius: 4px;
+	border:0px solid #e2b13c;
+}
+.conimg #confstatement {
+	font-size: 28px;
+	font-weight: bold;
+	color: white;
+	font-family: sans-serif;
+	margin-left: 48px;	
+
+}
+
+.pull-left button a{
+	color: white;
+	font-size: 16px;
+}
+
+#conferences{
+	color: darkblue;
+	font-weight: bold;
+	font-family: sans-serif;
+}
+#conferences .conimg 
+{	
+	background-image: url("Hanoi.jpeg");
+	background-size: 100%;
+	width:388.5px;
+	height:330.7px;
+	border-radius: 8px;
+	box-shadow: 0 6px 16px 0 rgba(115,143,147,.4);
+	transition: 0.5s;
+
+}
+	
+}
+#conferences .conimg p{
+
+	color: white;
+	font-weight: bold;
+	position: absolute;
+	font-size: 30px;
+}
+#imun2018 p{
+	margin-left: 97px;
+	color: white;
+	font-weight: bold;
+	position: absolute;
+	font-size: 30px;
+
+}
+
+#conferences button a{
+	color: white;
+	font-size: 10px;
+	font-family: sans-serif;
+	font-weight: bold;
+}
+ #sponsor{
+ 	display: inline;
+ 	margin-right: 140px;
+
+}
+#sponsor p{
+	font-size: 10px;
+	color: darkblue;
+	font-family: sans-serif;
+	width: 200px;
+	margin-top: 10px;
+}
+
+.sponsorimg{
+	width: 150px;
+	margin-left: 178px;
+	margin-top: -70px;
+}
+.sponsorimg img{
+	width: 85px;
+	height: 65px;
+	display: inline;
+}
+
+#imun2018
+{	background-image: url("imun2018.jpg");
+	background-size: 100%;
+	width:388.5px;
+	height:330.7px;
+	box-shadow: 0 6px 16px 0 rgba(115,143,147,.4);
+	transition: 0.5s;
+	border-radius: 18px;
+	
+
+}
+
+.partimg{
+	border-left: 20px;
+	border-right: 20px;
+	
+}
+.partimg img{
+	width: 160px;
+	height: 150px;
+	border-color: black;
+	size: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	border-radius: 9px;
+	box-shadow: 0 6px 16px 0 rgba(115,143,147,.4);
+}
+.partimg p{
+	font-size: 10px;
+	color: darkblue;
+	margin-top: 4px;
+	text-align: center;
+}
+#partners h3{
+	color: darkblue;
+	font-weight: bold;
+	margin-left: 80px;
+	font-family: sans-serif;
+}
+.teamtext h4{
+	font-weight: bold;
+	color: #24397b;
+	font-family: sans-serif;
+	font-size: 25px;
+	margin-left: 130px;
+}
+.teamtext p{
+	color: #24397b;
+	font-family: sans-serif;
+	margin-left: 130px;
+	font-size: 12px;
+	}
+
+.carousel-wrap {
+  margin: 90px auto;
+  padding: 0 5%;
+  width: 80%;
+  position: relative;
+}
+
+/* fix blank or flashing items on carousel */
+.owl-carousel .item {
+  position: relative;
+  z-index: 100; 
+  -webkit-backface-visibility: hidden; 
+}
+
+/* end fix */
+.owl-nav > div {
+  margin-top: -26px;
+  position: absolute;
+  top: 50%;
+  color: #cdcbcd;
+}
+
+.owl-nav i {
+  font-size: 52px;
+}
+
+.owl-nav .owl-prev {
+  left: -30px;
+}
+
+.owl-nav .owl-next {
+  right: -30px;
+}
+.owl-carousel img{
+	width: 120px !important;
+	height: 120px;
+	border-radius: 9px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	box-shadow: 0 6px 16px 0 rgba(115,143,147,.4);
+}
+.owl-carousel .item{
+	background-color: #e4ebf0;
+	border-radius: 9px
+
+}
+.owl-carousel .item p{
+	color: #24397b;
+	font-family: sans-serif;
+	font-weight: bold;
+	text-align: center;
+	font-size: 10px;
+}
+
+.owl-next:before{ content: "\f054"; }
+
+.carousel-inner div blockquote{
+	
+	width: 30em;
+	margin: 0 auto;
+	max-width: 100%;
+	line-height: 1.5;
+	font-size: 15px;
+	background-color: #4362cd;
+	border-radius: 16px;
+	color: white;
+	height: 192px;
+	float: left;
+
+}
+.carousel-inner img{
+	
+	height: 80px;
+	width: 80px;
+	border-radius: 50%;
+	float: left;
+}
+#getintouch
+{
+	color: #24397b;
+	font-size: 20px;
+	font-weight: bold;
+	font-family: sans-serif;
+}
+.container .label{
+	color: #636363;
+
+}
+.container .labelvalue {
+	color: #24397b;
+	font-size: 10px;
+	margin-left: 33px;
+}
+.carousel-inner div blockquote p{
+	margin-left: 60px;
+}
+
+#about h4{
+	margin-left: 140px;
+	color: white;
+	font-size: 23px;
+	text-align: left;
+	clear: both;
+}
+.about{
+	background-color: #344f88;
+	height: 450px;
+}
+.abouttext{
+	color: lightgrey;
+	font-size: 12px;
+	width: 30em;
+	margin-left: 140px;
+}
+.aboutlogo {
+	font-size: 20px;
+	margin-left: 140px;
+	color: #e2b13c;
+	word-spacing: 10px;
+}
+.dropmessage{
+	background-color: white;
+	width: 299px;
+	border-radius: 18px;
+	margin-left: 800px;
+	padding: 30px 30px;
+	margin-top: -500px;
+	box-shadow: 0 6px 16px 0 rgba(115,143,147,.4);
+}
+.dropmessage fieldset legend{
+	font-size: 10px;
+	font-weight: bold;
+}
+.dropmessage fieldset{
+	border:2px solid darkblue;
+	border-radius: 10px;
+}
+.dropmessage h5{
+	color: #24397b;
+	font-family: sans-serif;
+}
+#navbottom {
+  background-color: transparent;
+  overflow: hidden;
+ margin-left: 200px;
+  bottom: 0;
+  width: 100%;
+  
+
+
+}
+/* Style the links inside the navigation bar */
+#navbottom a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  margin-left: 50px;
+  font-size: 11px;
+}
+
+
+.bottomnav{
+	background-color: #344f88;
+
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+
+
+	.navbar ul li a{
+		color:white !important;
+		font-weight: bolder;
+		letter-spacing: 0.5px;
+		font-size: 11px;
+	}
+
+@media (min-width: 481px) and (max-width: 767px) {
+	.navbar{
+		padding-bottom: 0px; 
+	}
+	
+	.navbar-nav .open .dropdown-menu {
+		position: static;
+		float: none;
+		width: auto;
+		margin-top: 0;
+		background-color: #222a51;
+		border: 0;
+		-webkit-box-shadow: none;
+		box-shadow: none;
+	}
+	span.pull-right.footer-social {
+		padding-top: 25px;
+	}
+	
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+	#imun-banner .banner-text h1{
+		color:white;
+		text-align: left;
+		font-weight: bolder;
+		line-height: 38px;
+		font-size: 32px;
+
+	}
+	.navbar{
+		padding-bottom: 10px;  
+
+	}
+	
+	.navbar-nav .open .dropdown-menu {
+		position: static;
+		float: none;
+		width: auto;
+		margin-top: 0;
+		background-color: #222a51 !important;
+		border: 0;
+		-webkit-box-shadow: none;
+		box-shadow: none;
+	}
+
+}
+
